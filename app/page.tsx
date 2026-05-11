@@ -5,12 +5,13 @@ export default function Home() {
     <div className="container">
       <div className="logo-wrap">
         <Image
+          className="logo-img"
           src="/business-logo.png"
           alt="Heston Automotive Logo"
           height={90}
           width={280}
+          sizes="(max-width: 480px) 88vw, 300px"
           priority
-          style={{ width: "auto", height: "90px" }}
         />
       </div>
 
